@@ -4,6 +4,8 @@ export { default as IconChooseMood } from "./ChooseMood";
 export { default as IconMoods } from "./Moods";
 export { default as IconSleep } from "./Sleep";
 export { default as IconTrends } from "./Trends";
+export { default as IconInfo } from "./Info";
+
 // moods
 export { default as IconNeutral } from "./Neutral";
 export { default as IconMildSad } from "./MildSad";

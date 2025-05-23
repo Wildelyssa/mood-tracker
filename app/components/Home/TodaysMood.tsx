@@ -5,15 +5,14 @@ import {
   IconVeryHappy,
 } from "@/ui-components/lib/Icons/Index";
 import Card from "../Card/Card";
-import { Button, Text, Label } from "@/ui-components";
+import { Button } from "@/ui-components";
 import CardTitle from "./components/CardTitle";
 import SectionWrapper from "./SectionWrapper";
+import { getFormattedToday } from "@/app/lib/date";
 
 const TodaysMood = () => {
-  // if mood, show mood otherwise show button
   const moodLogged = true;
-  // get today's date in correct format=> make function
-  const todaysDate = "Thursday, 15th May 2025";
+  const todaysDate = getFormattedToday();
   return (
     <>
       {!moodLogged && (

@@ -10,7 +10,6 @@ const variants = cva("", {
       medium: "font-medium",
     },
     size: {
-      //To Do => this might be 2xl=> check
       xxl: "text-xxl",
       xl: "text-xl",
       lg: "text-lg",

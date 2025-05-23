@@ -1,5 +1,7 @@
 import AppHeader from "./components/Header/AppHeader";
 import WelcomeText from "./components/Header/WelcomeText";
+import HistoricView from "./components/Home/HistoricView";
+import TodaysMood from "./components/Home/TodaysMood";
 
 export default function Home() {
   return (
@@ -7,7 +9,10 @@ export default function Home() {
       <div className="flex flex-col w-[1600px] min-h-screen">
         <AppHeader />
         <WelcomeText />
-        <main className="flex flex-col"></main>
+        <main className="flex flex-col w-full gap-4">
+          <TodaysMood />
+          <HistoricView />
+        </main>
       </div>
     </div>
   );

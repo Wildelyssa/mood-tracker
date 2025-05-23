@@ -19,8 +19,9 @@ module.exports = {
         "dark-green": "rgb(100 166 167 / <alpha-value>)",
         "mid-green": "rgb(82 125 134 / <alpha-value>)",
         "light-green": "rgb(220 252 242 / <alpha-value>)",
-        black: "#2E2E2E",
+        black: "rgb(46 46 46 / <alpha-value>)",
         gray: "#676767",
+        "light-gray": "#CBCBCB",
         white: "#FFFDFA",
         shade: "#001E24",
         chart: {
@@ -38,10 +39,8 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        card: `2px 2px 20px rgba(18, 155, 234, 0.35)`,
-        cardEmphasis: `2px 2px 30px 0px rgba(18, 155, 234, 0.50)`,
-        greyMid: `1px 2px 10px rgba(90, 109, 124, 0.57)`,
-        greyLight: `1px 2px 10px rgba(90, 109, 124, 0.21)`,
+        "gray-mid": `1px 2px 10px rgba(90, 109, 124, 0.57)`,
+        "gray-light": `1px 2px 10px rgba(90, 109, 124, 0.21)`,
       },
     },
   },

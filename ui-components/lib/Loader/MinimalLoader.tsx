@@ -5,10 +5,7 @@ interface Props {
   color?: string;
 }
 
-const MinimalLoader = ({
-  size = 24,
-  color = "rgba(255, 253, 250, 1)",
-}: Props) => {
+const MinimalLoader = ({ size = 24, color = "rgba(54 101 125, 1)" }: Props) => {
   return (
     <div
       className="minimal-loader rounded-full"
